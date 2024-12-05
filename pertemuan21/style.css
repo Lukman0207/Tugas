@@ -1,0 +1,87 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2704030.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(72, 52, 212, 0.5);
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #4834d4;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px rgba(72, 52, 212, 0.5);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4834d4;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #4834d4;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background: #4834d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #2c1a9d;
+  box-shadow: 0 0 15px rgba(72, 52, 212, 0.7);
+}
+
+.error-msg {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff6b6b;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}

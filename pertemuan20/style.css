@@ -1,0 +1,234 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp9396919.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(72, 149, 239, 0.5);
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #4895ef;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px rgba(72, 149, 239, 0.5);
+  font-family: "Arial Black", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4895ef;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #4895ef;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 10px rgba(72, 149, 239, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(45deg, #4895ef, #2563eb);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #2563eb, #1e40af);
+  box-shadow: 0 0 15px rgba(72, 149, 239, 0.7);
+  transform: translateY(-2px);
+}
+
+.error-msg {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff6b6b;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Styling untuk halaman admin */
+.admin-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(72, 149, 239, 0.5);
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.nav-link {
+  color: #4895ef;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #4895ef;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background: #4895ef;
+  color: #fff;
+}
+
+.action-buttons {
+  margin: 1rem 0;
+}
+
+.btn-add {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(45deg, #4895ef, #2563eb);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(72, 149, 239, 0.7);
+}
+
+.search-container {
+  margin: 2rem 0;
+}
+
+.search-container input[type="text"] {
+  width: 300px;
+  padding: 0.8rem;
+  border: 2px solid #4895ef;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.data-table th {
+  background: #4895ef;
+  color: #fff;
+  padding: 1rem;
+  text-align: left;
+}
+
+.data-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(72, 149, 239, 0.3);
+  color: #fff;
+}
+
+.data-table tr:hover {
+  background: rgba(72, 149, 239, 0.1);
+}
+
+.data-table img {
+  border-radius: 5px;
+  border: 2px solid #4895ef;
+}
+
+/* Styling untuk form tambah dan ubah */
+.form-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(72, 149, 239, 0.5);
+  max-width: 600px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.form-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.form-container li {
+  margin-bottom: 1.5rem;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4895ef;
+}
+
+.form-container input[type="text"],
+.form-container input[type="file"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #4895ef;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.form-container img {
+  border-radius: 5px;
+  border: 2px solid #4895ef;
+  margin: 1rem 0;
+}
+
+.loader {
+  width: 30px;
+  margin-left: 1rem;
+  display: none;
+}
